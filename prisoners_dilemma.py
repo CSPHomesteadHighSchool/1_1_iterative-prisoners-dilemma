@@ -17,6 +17,7 @@ from __future__ import print_function
 # Each strategy is pitted against each other strategy for 100 to 200 rounds.
 # The results of all previous rounds within a 100-200 round stretch are known
 # to both players. 
+#100 rounds!!! thats so much!!! -Abe
 #
 # play_tournament([team0, team1, team2]) executes a tournament and writes to tournament.txt
 #
