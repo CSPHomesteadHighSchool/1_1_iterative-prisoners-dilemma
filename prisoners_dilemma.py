@@ -36,7 +36,7 @@ import example0, example1, example2, example3
 import example4, example5, example6, example7
 import team0, team1, Logan Weaver, Madeline Rotundo, team4
 import Lance Williams, team6, team7, team8, team9
-import team10, team11, team12, team13, IsaacTebben
+import team10, team11, Daniel Long, team13, IsaacTebben
 betray = example1
 collude = example0
 
