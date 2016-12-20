@@ -42,7 +42,7 @@ betray = example1
 collude = example0
 
 modules = [example0, example1, example2, example3, example4, example5, example6, example7,
-team0, team1, team2, team3, team4, team5, team6, team7, team8, team9, team10, 
+'main_caitie hamilton (0)', team1, team2, team3, team4, team5, team6, team7, team8, team9, team10, 
 team11, team12, team13, team14]
 for module in modules:
     reload(module)
@@ -55,7 +55,7 @@ def main_play(modules):
     '''main_play plays a tournament and outputs results to screen and file.
     This function is called once when this file is executed.
     modules: a list of modules such as [team1, team2]    
-    
+
     Returns:
         scores:
         moves:
@@ -78,6 +78,7 @@ def play_tournament(modules):
         strategy_description: a string
         move: A function that returns 'c' or 'b'
     '''
+ ####these functions dont actually work, we need to fix them####
     zeros_list = [0]*len(modules) # to initialize each player's head-to-head scores
     scores = [zeros_list[:] for module in modules] # Copy it or it's only 1 list
     moves = [zeros_list[:] for module in modules] # Copy it or it's only 1 list
