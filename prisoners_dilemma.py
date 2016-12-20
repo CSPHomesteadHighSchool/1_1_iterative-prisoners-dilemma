@@ -47,7 +47,7 @@ team11, team12, team13, team14]
 for module in modules:
     reload(module)
     print ('reloaded',module)
-    for required_variable in ['team_name', 'strategy_name', 'strategy_description']:
+    for required_variable in ['team name my dude yeeeehaw', 'strategy_name', 'strategy_description']:
         if not hasattr(module, required_variable):
             setattr(module, required_variable, 'missing assignment')
 
@@ -97,7 +97,7 @@ def play_tournament(modules):
         moves[first_team_index][first_team_index] = ''
     return scores, moves
 
-
+##test caitie h
 def play_iterative_rounds(player1, player2):
     '''
     Plays a random number of rounds (between 100 and 200 rounds) 
@@ -380,3 +380,5 @@ def post_to_file(string, filename='tournament.txt', directory=''):
 if __name__ == '__main__':
     scores, moves, reports = main_play(modules[0:4])   
     section0, section1, section2, section3 = reports
+    
+    # test comment madeline
